@@ -2,13 +2,13 @@
 {
     public class Product
     {
-        int Id { get; set; }
-        public string Name { get; set; }
-        int Price { get; set; }
-        string Category;
-        string Shelf { get; set; }
-        int Count {  get; set; }
-        string Description { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public int Price { get; set; }
+        public string Category { get; set; } = string.Empty;
+        public string Shelf { get; set; } = string.Empty;
+        public int Count { get; set; }
+        public string Description { get; set; } = string.Empty;
 
     }
 }
